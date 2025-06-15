@@ -62,7 +62,7 @@
 
 @media screen and (min-width:576px){
     .container-fluid.bg-header {
-        background: url('../images/n_images/leaves.png'), linear-gradient(#f1ffbf,#f1ffbf);
+        background: url('images/images/leaves.png'), linear-gradient(#f1ffbf,#f1ffbf);
     }
 }
 
@@ -307,11 +307,11 @@
 
 /* card */
 .category-container .card.category-card.category-card-1{
-    background-image: url('../images/Images\ site/a.jpg');
+    background-image: url('images/Images site/a.jpg');
 }
 
 .category-container .card.category-card.category-card-2{
-    background-image: url('../images/Images\ site/FLYERS_GOUSTO.jpg');
+    background-image: url('images/Images site/FLYERS_GOUSTO.jpg');
 }
 
 .category-container .card.category-card{

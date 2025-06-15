@@ -1,0 +1,100 @@
+/* NAVBAR */
+.header .navbar.bg-color{
+    background-color: transparent;
+}
+
+.header .nav-item .nav-link{
+    color: #96BD0D;
+}
+
+.header .nav-item .nav-link:hover span,
+.header .nav-item .nav-link:focus span,
+.header .nav-item .nav-link:active span  {
+    background-color: #96BD0D;
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 7px;
+}
+
+.navbar-nav .nav-link.active  {
+    background-color: #96BD0D;
+    border-radius: 40px;
+    color: #fff !important;
+    padding: 5px 7px;
+}
+
+.header .dropdown-menu .dropdown-item:hover,
+.header .dropdown-menu .dropdown-item:focus,
+.header .dropdown-menu .dropdown-item:active{
+    color: #fdfdfd;
+    background-color: #97bd0d8a;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn.button-nav {
+    background-color: #96BD0D;
+    color: #fff;
+}
+
+.btn.button-nav:hover,
+.btn.button-nav:active,
+.btn.button-nav:focus {
+    background-color: #3b4908;
+    color: #fff;
+}
+
+#header,
+.product-container.container-fluid {
+    background-color:  #eaff9f;
+}
+
+.product-container .product-intro-sentence {
+    color: #3b4908;
+}
+
+
+.product-container .product-name {
+    color: #96BD0D;
+}
+
+.product-container .description,
+.product-container .ingredients-list .text,
+.product-container .details-name {
+    color: #3b4908;
+}
+
+.product-container .ingredients-list i {
+    color: #3b4908;
+}
+
+.product-container .ingredients-title {
+    color: #3b4908;
+}
+
+.product-container .img-bg .image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-container .details {
+    color: #96BD0D;
+}
+
+
+.product-container .btn.btn-add-cart {
+    background: #96BD0D;
+    color: #f2f2f2;
+}
+
+.product-container .btn.btn-add-cart:hover, 
+.product-container .btn.btn-add-cart:focus,
+.product-container .btn.btn-add-cart:active {
+    background: transparent ;
+    border: 2px solid #96BD0D;
+    color: #96BD0D;
+}

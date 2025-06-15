@@ -1,0 +1,98 @@
+/* header{
+    z-index: 4;
+} */
+.plantation img{
+    width: 100%;
+}
+.titrorig{
+    text-align: center;
+    padding: 10px;
+}
+.lesfruits{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.lesfruits img{
+    width: 500px;
+    height: 400px;
+    padding: 0;
+    margin-top: -5px;
+}
+.plant{
+    padding: 0;
+    width: 50%;
+}
+.defin{
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.plant:hover .defin{
+    display: block;
+    /* border-radius: 10px; */
+    /* background-color: rgba(17, 16, 16, 0.5); */
+    margin-top: -300px;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+   
+}
+.plant:hover img{
+    opacity: 0.5;
+}
+.tomates{
+    margin-top: -5px;
+    padding: 0;
+    width: 100%;
+}
+.tomates img{
+    width: 100%;
+}
+.tomat{
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+.tomates:hover .tomat{
+    display: block;
+    margin-top: -400px;
+    text-align: center;
+   
+}
+.tomates:hover img{
+    opacity: 0.8;
+}
+.tm{
+    color: #fff;
+}
+.trafrule img{
+    width: 100%;
+}
+.frule{
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+.trafrule:hover .frule{
+    display: block;
+    margin-top: -400px;
+    text-align: center;
+    margin-left: 400px;
+   
+}
+.trafrule:hover img{
+    opacity: 0.9;
+}
+.loca img{
+    width: 90px;
+}
+.loca img:hover{
+    width: 100px;
+}
+.propos h1{
+    text-align: center;
+}
+

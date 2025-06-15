@@ -1,0 +1,480 @@
+/* NAVBAR */
+.header .navbar.bg-color{
+    background-color: transparent;
+}
+
+.header .navbar-collapse.show {
+    background: #ebffe9;
+}
+
+.header.background-colored {
+    background: #ebffe9;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
+.header .nav-item .nav-link{
+    color: #0A642E;
+}
+
+.header .nav-item .nav-link:hover span,
+.header .nav-item .nav-link:focus span,
+.header .nav-item .nav-link:active span  {
+    background-color: #0A642E;
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 7px;
+}
+
+.navbar-nav .nav-link.active  {
+    background-color: #0A642E;
+    border-radius: 40px;
+    color: #fff !important;
+    padding: 5px 7px;
+}
+
+.header .dropdown-menu .dropdown-item:hover,
+.header .dropdown-menu .dropdown-item:focus,
+.header .dropdown-menu .dropdown-item:active{
+    color: #fdfdfd;
+    background-color: #0A642E9a;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn.button-nav {
+    background-color: #0A642E;
+    color: #fff;
+}
+
+/* section */
+section#mainBody-4 {
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width:767.98px) {
+    #mainBody-4 .container{
+        width: 90%;
+    }
+}
+
+/* HEADER TITLE */
+
+.container-fluid.bg-header {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border: 1px solid transparent;
+    background: url('images/cebon/all.png'), linear-gradient(#ebffe9,#ebffe9);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:575.98px) {
+    .container-fluid.bg-header {
+        margin-bottom: 30px;
+        height: 55vh;
+        background-size: contain !important;
+        background-position: 50% 50%;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767.98px){
+    .container-fluid.bg-header {
+        margin-bottom: 50px;
+        background-size: contain !important;
+        background-position: 50% 50%;
+        height: 60vh;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .container-fluid.bg-header {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-size: cover !important;
+        background-position: 50% -10%;
+        height: 70vh;
+        margin-bottom: 55px;
+    }
+}
+
+@media screen and (max-width:767.98px){
+    .container-fluid.bg-header {
+        padding: 50px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1279.98px) {
+    .container-fluid.bg-header {    
+        height: 85vh;
+        margin-bottom: 70px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .container-fluid.bg-header {
+        height: 100vh;
+        padding-top: 50px;
+        margin-bottom: 70px;
+        background-size: inherit;
+        background-position: 50% 20%;
+    }
+}
+
+
+/* MAIN SECTION BODY */
+
+.container.pur__jus-container,
+.container.nectar-container{
+    margin-bottom: 50px;
+}
+
+.container.pur__jus-container .page-name-row,
+.container.nectar-container .page-name-row{
+    margin-bottom: 30px;
+}
+
+
+@media screen and (max-width:479.98px){
+    
+    .container.pur__jus-container .page-name,
+    .container.nectar-container .page-name {
+        font-size: 16px;
+    }    
+}
+
+@media screen and (min-width:480px) and (max-width:575.98px){
+    
+    .container.pur__jus-container .page-name,
+    .container.nectar-container .page-name {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:576px){
+    
+    .container.pur__jus-container .page-name,
+    .container.nectar-container .page-name {
+        font-size: 19px;
+    }
+        
+}
+
+.container.pur__jus-container .page-name,
+.container.nectar-container .page-name{
+    color: rgb(5, 5, 5);
+}
+
+.container.pur__jus-container .pur__jus-card.card,
+.container.nectar-container .nectar-card.card{
+    border: 1px solid transparent;
+    height: 320px;
+    width: 220px;
+    text-align: center;
+    padding: 20px;
+}
+
+/* pur jus */
+.container.pur__jus-container .pur__jus-card.card.jus_ananas{
+    background-color: hsl(106, 100%, 90%);
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_ananas:hover{
+    background-color: #0A642E;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_mangue{
+    background-color: #ffd796;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_mangue:hover{
+    background-color: #F19300;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_pomme{
+    background-color: #ffbec5;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_pomme:hover{
+    background-color: #BC1B2B;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_cocktail{
+    background-color: #f0ceff;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_cocktail:hover{
+    background-color: #622280;
+}
+
+.container.pur__jus-container .pur__jus-card.card .card-img-bg {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.container.pur__jus-container .pur__jus-card.card .card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container.pur__jus-container .pur__jus-card.card .card-body .name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1c1d1a;
+}
+
+
+.container.pur__jus-container .pur__jus-card.card:hover .name{
+    color: #f2f2f2;
+}
+
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more {
+    color: #f2f2f2;
+    border-radius: 40px;
+    border-bottom-left-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_ananas .btn.btn-read-more {
+    background-color: #0A642E;
+}
+.container.pur__jus-container .pur__jus-card.card.jus_mangue .btn.btn-read-more {
+    background: #F19300;
+}
+.container.pur__jus-container .pur__jus-card.card.jus_pomme .btn.btn-read-more {
+    background: #BC1B2B;
+}
+.container.pur__jus-container .pur__jus-card.card.jus_cocktail .btn.btn-read-more {
+    background: #622280;
+}
+
+.container.pur__jus-container .pur__jus-card.card:hover .btn.btn-read-more {
+    background: #fff ;
+}
+
+.container.pur__jus-container .pur__jus-card.card.jus_ananas:hover .btn.btn-read-more {
+    color: #0A642E;
+}
+.container.pur__jus-container .pur__jus-card.card.jus_mangue:hover .btn.btn-read-more {
+    color: #F19300;
+}
+.container.pur__jus-container .pur__jus-card.card.jus_pomme:hover .btn.btn-read-more {
+    color: #BC1B2B;
+}
+.container.pur__jus-container .pur__jus-card.card.jus_cocktail:hover .btn.btn-read-more {
+    color: #622280;
+}
+
+
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:hover, 
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:focus,
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:active {
+    background: transparent ;
+    border: 2px solid #fff;
+}
+
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:hover span.link-text, 
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:focus span.link-text,
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:active span.link-text,
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:hover i, 
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:focus i,
+.container.pur__jus-container .pur__jus-card.card .btn.btn-read-more:active i {
+    color: #fff;
+}
+
+/* nectar */
+
+.container.nectar-container .nectar-card.card.nectar_ananas{
+    background-color:#eaff9f;
+}
+
+.container.nectar-container .nectar-card.card.nectar_ananas:hover{
+    background-color: #96BD0D;
+}
+
+.container.nectar-container .nectar-card.card.nectar_mangue{
+    background-color: #ffda96;
+}
+
+.container.nectar-container .nectar-card.card.nectar_mangue:hover{
+    background-color: #f18900;
+}
+
+.container.nectar-container .nectar-card.card.nectar_pomme{
+    background-color: #ffbebe;
+}
+
+.container.nectar-container .nectar-card.card.nectar_pomme:hover{
+    background-color: #bc1b1b;
+}
+
+.container.nectar-container .nectar-card.card.nectar_orange{
+    background-color: #ffdec3;
+}
+
+.container.nectar-container .nectar-card.card.nectar_orange:hover{
+    background-color: #E6511E;
+}
+
+.container.nectar-container .nectar-card.card .card-img-bg {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.container.nectar-container .nectar-card.card .card-img-top{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.container.nectar-container .nectar-card.card .card-body .name{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1c1d1a;
+}
+
+
+.container.nectar-container .nectar-card.card:hover .name{
+    color: #f2f2f2;
+}
+
+.container.nectar-container .nectar-card.card .btn.btn-read-more {
+    color: #f2f2f2;
+    border-radius: 40px;
+    border-bottom-left-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.container.nectar-container .nectar-card.card.nectar_ananas .btn.btn-read-more {
+    background: #96BD0D;
+}
+.container.nectar-container .nectar-card.card.nectar_mangue .btn.btn-read-more {
+    background: #f18900;
+}
+.container.nectar-container .nectar-card.card.nectar_pomme .btn.btn-read-more {
+    background: #bc1b1b;
+}
+.container.nectar-container .nectar-card.card.nectar_orange .btn.btn-read-more {
+    background: #E6511E;
+}
+
+.container.nectar-container .nectar-card.card:hover .btn.btn-read-more {
+    background: #fff ;
+}
+
+.container.nectar-container .nectar-card.card.nectar_ananas:hover .btn.btn-read-more {
+    color: #96BD0D;
+}
+.container.nectar-container .nectar-card.card.nectar_mangue:hover .btn.btn-read-more {
+    color: #f18900;
+}
+.container.nectar-container .nectar-card.card.nectar_pomme:hover .btn.btn-read-more {
+    color: #bc1b1b;
+}
+.container.nectar-container .nectar-card.card.nectar_orange:hover .btn.btn-read-more {
+    color: #E6511E;
+}
+
+
+.container.nectar-container .nectar-card.card .btn.btn-read-more:hover, 
+.container.nectar-container .nectar-card.card .btn.btn-read-more:focus,
+.container.nectar-container .nectar-card.card .btn.btn-read-more:active {
+    background: transparent ;
+    border: 2px solid #fff;
+}
+
+.container.nectar-container .nectar-card.card .btn.btn-read-more:hover span.link-text, 
+.container.nectar-container .nectar-card.card .btn.btn-read-more:focus span.link-text,
+.container.nectar-container .nectar-card.card .btn.btn-read-more:active span.link-text,
+.container.nectar-container .nectar-card.card .btn.btn-read-more:hover i, 
+.container.nectar-container .nectar-card.card .btn.btn-read-more:focus i,
+.container.nectar-container .nectar-card.card .btn.btn-read-more:active i {
+    color: #fff;
+}
+
+/* Pills */
+
+.nav-pills.jus-pills .nav-link {
+    width: 80px;
+}
+
+.nav-pills.jus-pills .nav-link span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav-pills.jus-pills .nav-link.active span{
+    font-weight: bold;
+}
+
+
+/* quality */
+
+.container-fluid.quality-container {
+    background-color: #E6511E;
+    padding: 30px 50px;
+    margin: 50px 0px;
+}
+
+@media screen and (min-width:1024px){
+    .container-fluid.quality-container {
+        border-top-right-radius: 150px;
+        border-bottom-right-radius: 150px;
+        padding: 50px ;
+        margin: 100px 0px;
+        width: 90%;
+    }
+}
+
+
+.quality-container .quality-card.card {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.quality-container .quality-card.card .img-bg {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.quality-container .quality-card.card .img-bg .image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:479.98px){
+    .quality-container .quality-card.card .title {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:480px){
+    .quality-container .quality-card.card .title {
+        font-size: 18px;
+    }
+}
+
+.quality-container .quality-card.card .title {
+    color: #fff;
+    font-weight: 700;
+}
+
+.quality-container .quality-card.card .subtitle {
+    color: #f2f2f2;
+    font-size: 14px;
+}

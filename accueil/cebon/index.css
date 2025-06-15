@@ -1,0 +1,200 @@
+/* product global style */
+@media screen and (max-width:767.98px){
+    
+    .product-container.container-fluid {
+        padding:100px 30px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.98px){
+    .product-container.container-fluid {
+        padding:100px 50px;
+    }
+}
+
+@media (min-width:992px){
+    .product-container.container-fluid {
+        padding:100px;
+    }
+}
+
+.product-container.container-fluid {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.product-container .product-intro-sentence {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@media screen and (max-width:479.98px){
+    .product-container .product-intro-sentence {
+        font-size: 14px;
+    }
+    .product-container .product-name {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:480px){
+    .product-container .product-intro-sentence {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:575.98px){
+    .product-container .product-name {
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width:576px){
+    .product-container .product-name {
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
+
+.product-container .product-name {
+    font-weight: bold;
+}
+
+.product-container .description,
+.product-container .ingredients-list .text,
+.product-container .details-name {
+    font-size: 14px;
+}
+
+
+@media screen and (max-width:479.98px){
+    .product-container .img-bg {
+        height: 290px; 
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:575.98px) {
+    .product-container .img-bg {
+        height: 300px; 
+    }
+}
+@media screen and (min-width:576px) and (max-width:767.98px) {
+    .product-container .img-bg {
+        height: 320px; 
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .product-container .img-bg {
+        height: 370px; 
+    }
+}
+
+@media screen and (min-width:992px){
+    .product-container .img-bg {
+        height: 450px; 
+    }
+}
+
+
+.product-container .img-bg {
+    width: 100%;
+    overflow: hidden;
+}
+
+.product-container .ingredients-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.product-container .img-bg .image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width:479.98px){
+    .product-container .details {
+        font-size: 18px;
+    }    
+}
+
+@media screen and (min-width:480px) and (max-width:575.98px){
+    .product-container .details {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767.98px){
+    .product-container .details {
+        font-size: 22px;
+    }
+    
+}
+
+@media screen and (min-width:768px){
+    .product-container .details {
+        font-size: 25px;
+    }
+    
+}
+
+
+.product-container .details {
+    font-weight: bold;
+}
+
+
+.product-container .btn.btn-add-cart {
+    font-weight: bold;
+    border-radius: 40px;
+    border-top-left-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
+}
+
+
+/* navigation button */
+.btn.button-nav {
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    padding: 3px 6px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}  
+
+
+@media screen and (min-width:992px){
+    .btn.button-nav {
+        display: flex;
+    }  
+    
+}
+
+.btn.button-prev {
+    left:10px;
+    right: auto;
+}
+
+.btn.button-next {
+    right: 10px;
+    left: auto;
+}
+
+.icon-btn {
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+}
+
+.icon-ing {
+    position: relative;
+    top: 3px;
+    font-size: 20px;
+}
