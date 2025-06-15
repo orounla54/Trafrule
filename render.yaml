@@ -1,9 +1,9 @@
 services:
   - type: static
-    name: TRAFRULE-website
-    buildCommand: ''
+    name: trafuler-website
     rootDir: accueil/
-    publishPath: accueil/
+    buildCommand: ""
+    publishPath: .
     envVars:
       - key: NODE_VERSION
         value: 18.x
