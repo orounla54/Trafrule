@@ -1,0 +1,14 @@
+services:
+  - type: static
+    name: TRAFRULE-website
+    buildCommand: ''
+    rootDir: accueil/
+    publishPath: accueil/
+    envVars:
+      - key: NODE_VERSION
+        value: 18.x
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: no-cache
+    

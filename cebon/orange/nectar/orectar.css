@@ -1,0 +1,106 @@
+/* NAVBAR */
+.header .navbar.bg-color{
+    background-color: transparent;
+}
+
+.header .nav-item .nav-link{
+    color: #E6511E;
+}
+
+.header .nav-item .nav-link:hover span,
+.header .nav-item .nav-link:focus span,
+.header .nav-item .nav-link:active span  {
+    background-color: #E6511E;
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 7px;
+}
+
+.navbar-nav .nav-link.active  {
+    background-color: #E6511E;
+    border-radius: 40px;
+    color: #fff !important;
+    padding: 5px 7px;
+}
+
+.header .dropdown-menu .dropdown-item:hover,
+.header .dropdown-menu .dropdown-item:focus,
+.header .dropdown-menu .dropdown-item:active{
+    color: #fdfdfd;
+    background-color: #E6511E9a;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.btn.button-nav {
+    background-color: #E6511E;
+    color: #fff;
+}
+
+/* section */
+.btn.button-nav {
+    background-color: #E6511E;
+    color: #fff;
+}
+
+.btn.button-nav:hover,
+.btn.button-nav:active,
+.btn.button-nav:focus {
+    background-color: #6b220a;
+    color: #fff;
+}
+
+#header,
+.product-container.container-fluid {
+    background-color:  #ffdec3;
+}
+
+.product-container .product-intro-sentence {
+    color: #6b220a;
+}
+
+
+.product-container .product-name {
+    color: #E6511E;
+}
+
+.product-container .description,
+.product-container .ingredients-list .text,
+.product-container .details-name {
+    color: #6b220a;
+}
+
+.product-container .ingredients-list i {
+    color: #6b220a;
+}
+
+.product-container .ingredients-title {
+    color: #6b220a;
+}
+
+.product-container .img-bg .image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.product-container .details {
+    color: #E6511E;
+}
+
+
+.product-container .btn.btn-add-cart {
+    background: #E6511E;
+    color: #f2f2f2;
+}
+
+.product-container .btn.btn-add-cart:hover, 
+.product-container .btn.btn-add-cart:focus,
+.product-container .btn.btn-add-cart:active {
+    background: transparent ;
+    border: 2px solid #E6511E;
+    color: #E6511E;
+}

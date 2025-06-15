@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafrule</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="images/image/favicon.png" type="image/png" sizes="32x32">
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="index.css">
+    <!-- BOOTSTRAP v5.2.3 CSS-->
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
+    <!-- ICONS CSS -->
+    <link rel="stylesheet" href="../@flaticon/flaticon-uicons/css/all/all.css">
+    <!-- CDN LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <header class="header fixed-top" id="header-main">
+        <nav class="navbar navbar-expand-lg bg-color mx-auto">
+            <a href=../accueil/index.html class="navbar-brand">
+                <div class="header-logo-bg">
+                    <img src="../images/n_images/logo/trafule_wbg.png" class="header-logo" alt="logo">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="custom navbar-toggler-icon">
+                    <i class="fi fi-br-menu-burger"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../Histoire/histoire.html" class="nav-link"><span>Notre Histoire</span></a>
+                    </li>
+                    <li class="nav-item dropdown custom">
+                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos marques
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../cebon/cebon.html" class="dropdown-item">Cêbon</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="../gousto/gousto.html" class="dropdown-item">Gousto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Engagement/engagement.html" class="nav-link"><span>Nos Engagements</span></a>
+                    </li>
+                    <li class="nav-item me-0">
+                        <a href="../Potager/potager.html" class="nav-link "><span>Le Potager</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid bg-header g-0 mx-0" id="home">
+        <div class="row">
+             <div class="col-12 col-lg-6 my-5 my-lg-auto mb-5 mb-md-0">
+                <div class="border_hr"></div>
+                 <p class="page-title">
+                    De la couleur dans ton assiette, de l'énergie dans ton corps<span class="dot">.</span>
+                 </p>
+                 <p class="page-intro">
+                    Envie d'un boost de vitamines ? Nos jus de fruits naturels sont là pour ça ! 
+                    Et pour les amateurs de cuisine maison, notre tomate en pâte est l'ingrédient 
+                    secret de tes meilleures sauces.
+                 </p>
+                 <a href="" class="btn header-shop-btn mt-3">
+                     <i class="fi fi-rr-shop me-0 me-md-2"></i>
+                     <span>Aller à la boutique</span>
+                 </a>
+             </div>
+             <div class="col-12 col-lg-6">
+
+                <ul class="nav nav-pills" id="products-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active me-5 pb-2" id="cebon-tab" data-bs-toggle="pill" data-bs-target="#cebon" type="button" role="tab" aria-controls="cebon" aria-selected="true">
+                        <div class="img-bg mb-0">
+                            <img src="../images/n_images/fr-juice.png" class="logo" alt="">
+                        </div>
+                      </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link" id="gousto-tab" data-bs-toggle="pill" data-bs-target="#gousto" type="button" role="tab" aria-controls="gousto" aria-selected="false">
+                        <div class="img-bg mb-0">
+
+                            <img src="../images/n_images/tomatoes.png" class="logo" alt="">
+                        </div>
+                      </button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="pills-tabContent">
+                <!-- CEBON -->
+                    <div class="tab-pane fade show active" id="cebon" role="tabpanel" aria-labelledby="cebon-tab">
+                        <div class="d-flex align-items-start align-center justify-content-between">
+                            <div class="tab-content" id="v-pills-tabContent">
+                                <!-- APPLE JUICE -->
+                                <div class="tab-pane ceb_juice fade show active" id="apple" role="tabpanel" aria-labelledby="apple-tab">
+                                    <div class="img-bg">
+                                        <img src="../images/n_images/cebon/jus/jus_pomme.png" class="image" alt="">
+                                    </div>
+                                </div>
+                                <div class="tab-pane ceb_juice fade" id="pineapple" role="tabpanel" aria-labelledby="pineapple-tab">
+                                    <div class="img-bg">
+                                        <img src="../images/n_images/cebon/jus/jus_ananas.png" class="image" alt="">
+                                    </div>
+                                </div>
+                                <div class="tab-pane ceb_juice fade" id="mango" role="tabpanel" aria-labelledby="mango-tab">
+                                    <div class="img-bg">
+                                        <img src="../images/n_images/cebon/jus/jus_mangue.png" class="image" alt="">
+                                    </div>
+                                </div>
+                                <div class="tab-pane ceb_juice fade" id="cocktail" role="tabpanel" aria-labelledby="cocktail-tab">
+                                    <div class="img-bg">
+                                        <img src="../images/n_images/cebon/jus/jus_cocktail.png" class="image" alt="">
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="nav flex-column nav-pills ms-3" id="juice-tab" role="tablist" aria-orientation="vertical">
+                                <!-- APPLE BUTTON -->
+                                <button class="nav-link active" id="apple-tab" data-bs-toggle="pill" data-bs-target="#apple" type="button" role="tab" aria-controls="apple" aria-selected="true">
+                                    <div class="img-bg mb-0">
+                                        <img src="../images/n_images/apples.png" class="logo" alt="">
+                                    </div>
+                                </button>
+                                <!-- PINEAPPLE BUTTON -->
+                                <button class="nav-link" id="pineapple-tab" data-bs-toggle="pill" data-bs-target="#pineapple" type="button" role="tab" aria-controls="pineapple" aria-selected="false">
+                                    <div class="img-bg mb-0">
+                                        <img src="../images/n_images/pineapple_.png" class="logo" alt="">
+                                    </div>
+                                </button>
+                                <!-- MANGO BUTTON -->
+                                <button class="nav-link" id="mango-tab" data-bs-toggle="pill" data-bs-target="#mango" type="button" role="tab" aria-controls="manguo" aria-selected="false">
+                                    <div class="img-bg mb-0">
+                                        <img src="../images/n_images/mango.png" class="logo" alt="">
+                                    </div>
+                                </button>
+                                <!-- COCKTAIL BUTTON -->
+                                <button class="nav-link" id="cocktail-tab" data-bs-toggle="pill" data-bs-target="#cocktail" type="button" role="tab" aria-controls="cocktail" aria-selected="false">
+                                    <div class="img-bg mb-0">
+                                        <img src="../images/n_images/fruits_.png" class="logo" alt="">
+                                    </div>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- GOUSTO -->
+                    <div class="tab-pane gousto_tab-pane fade" id="gousto" role="tabpanel" aria-labelledby="gousto-tab">
+                        <div class="img-bg mb-0">
+                            <img src="../images/n_images/gousto/all.png" class="image" alt="">
+                        </div>
+                    </div>
+                </div>                  
+             </div>
+         </div>
+    </div>
+    <section id="mainBody-1">
+        <div class="container-fluid category-container">
+            <div class="row page-name-row">
+                <div class="col-12 col-lg-6 page-name-col">
+                    <p class="page-name">Découvrez les marques de vos différents produits.</p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <p class="page-description">
+                        Chez TRAFRULE, notre mission est de transformer les fruits et légumes 
+                        frais en produits sains et savoureux.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center align-content-center">
+                <div class="col-12 col-lg-6 mb-5 mb-lg-0 pe-0 pe-lg-2">
+                    <div class="card category-card category-card-1">
+                        <div class="text-box">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="category-title">Cêbon</p>
+                                    <p class="category-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 text-end">
+                                    <button class="btn category-see-more-btn">
+                                        <span>En savoir plus</span>
+                                        <i class="fi fi-rs-arrow-right icon ms-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6 ps-0 ps-lg-3 mb-5 mb-lg-0">
+                    <div class="card category-card category-card-2">
+                        <div class="text-box">
+                            <div class="row">
+                                <div class="col-12">
+                                    <p class="category-title">Gousto</p>
+                                    <p class="category-description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing elit.
+                                    </p>
+                                </div>
+                                <div class="col-12 text-end">
+                                    <button class="btn category-see-more-btn">
+                                        <span>En savoir plus</span>
+                                        <i class="fi fi-rs-arrow-right icon ms-1"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="container contact-container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="contact-form-intro">
+                        <p class="contact-form-title">
+                            Contactez-nous !
+                        </p>
+                        <p class="contact-form-subtitle">
+                            Pour tout.e renseignement ou plainte, envoyez-nous un message. Nous vous répondrons dans les plus brefs délais.
+                        </p>
+                    </div>
+                    <form action="" class="contact-form">
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Nom et Prénom(s)"/>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <input type="email" class="form-control" placeholder="Email"/>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5 mb-lg-1">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-submit">Envoyez</button>
+                            </div>
+                        </div>                                
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card location-card">
+                        <div class="card-body p-0">
+                           <div class="location-adress-row mb-4">
+                                <p class="location-title mb-2 fw-bold">Localisez-nous</p>
+                                <p class="location mb-1">
+                                    Nous sommes situés à Cocody en face de la polyclinique de deux plateaux.
+                                </p>
+                                <a href="#" class="location-link">
+                                    <span>Retrouvez-nous sur la carte</span>
+                                    <i class="fi fi-br-up-right-from-square"></i>
+                                </a>
+                            </div>
+                            <div class="location-title-row mb-4">
+                                <p class="location-title mb-0">Adresse Postale</p>
+                                <p class="location-desc">08 PB 1793 Abidjan</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="location-title-row">
+                                        <p class="location-title mb-2">Contacts</p>
+                                        <div class="location-desc">
+                                            <div class="location-contact-1 mb-2">
+                                                <p class="location-contact-name fw-semibold mb-0">Administration </p>
+                                                <i class="fi fi-sr-phone-rotary icon"></i>
+                                                <span class="tel">(+225) 27 22 44 18 54</span>
+                                            </div>
+                                            <div class="location-contact-2 mb-3">
+                                                <p class="location-contact-name fw-semibold mb-0"> Service client</p>
+                                                <i class="fi fi-sr-phone-rotary icon"></i>
+                                                <span class="tel">(+225) 27 22 24 75 29 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="location-title-row">
+                                        <p class="location-title mb-2">Réseaux sociaux</p>
+                                        <div class="location-desc">
+                                            <div class="location-social-1">
+                                                <div class="d-flex justify-content-between">
+                                                   <div>
+                                                        <p class="fw-semibold mb-1">Cêbon</p>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <a href="https://www.instagram.com/cebonci/" class="social-link">
+                                                                    <i class="fi fi-brands-instagram icon me-1"></i>
+                                                                    <span>Cebonci</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://www.facebook.com/profile.php?id=100077634068755" class="social-link">
+                                                                    <i class="fi fi-brands-facebook icon me-1"></i>
+                                                                    <span>Cebon</span>
+                                                                </a>
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                   </div>
+
+                                                   <div>
+                                                        <p class="fw-semibold mb-1">Gousto</p>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <a href="https://www.instagram.com/gousto_civ/" class="social-link">
+                                                                    <i class="fi fi-brands-instagram icon me-1"></i>
+                                                                    <span>Gousto_civ</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                
+                                                                <a href="https://www.facebook.com/profile.php?id=100077437884424" class="social-link">
+                                                                    <i class="fi fi-brands-facebook icon me-1"></i>
+                                                                    <span>Gousto</span>
+                                                                </a>
+                                                            </li>
+                                                           
+                                                        </ul>
+                                                   </div>
+                                                </div>                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+        
+    </div>
+    <!-- le pied de la page  -->
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <div class="footer-logo-bg ">
+                    <img src="../images/n_images/logo/trafule_wbg.png" class="footer-logo float-start" alt="logo">
+                </div>
+                <p class="footer-logo-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facere aperiam ipsa assumenda, dignissimos fugit, provident
+                </p>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="footer-section-title text-capitalize">Contactez-nous</p>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-0">Adresse</p>
+                    <span>
+                        08 PB 1793 im. Face à la polyclinique de deux plateaux, Abidjan.
+                    </span>
+                </div>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-0">Email</p>
+                    <span>infos@trafrule.com </span>
+                </div>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-2">Réseaux sociaux</p>
+                    <div class="d-flex align-items-center">
+                        <div class="icon-bg">
+                            <i class="fi fi-brands-instagram icon"></i>
+                        </div>
+                        <div class="icon-bg mx-3">
+                            <i class="fi fi-brands-facebook icon"></i>
+                        </div>
+                        <div class="icon-bg">
+                            <i class="fi fi-brands-linkedin icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="footer-section-title text-capitalize">Horaires d'ouverture</p>
+                <ul class="list-unstyled footer-opening-hour">
+                    <li>Lun - Ven : 8h00 - 18h00</li>
+                    <li class="my-2">Sam : 8h00 - 12h00</li>
+                    <li>Dim : Fermé</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3">
+                <p class="footer-section-title text-capitalize">Service client</p>
+                <div class="footer-contact mb-2">
+                    <p class="fw-semibold mb-0">Administration </p>
+                    <span>(+225) 27 22 44 18 54</span>
+                </div>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-0"> Service client</p>
+                    <span>(+225) 27 22 24 75 29 </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- jQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BOOTSTRAP v5.2.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- MAIN CUSTOM JS -->
+    <script src="../main.js"></script>
+    <!-- PAGE CUSTOM JS -->
+    <script src="index.js"></script>
+</body>
+</html>

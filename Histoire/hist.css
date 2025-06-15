@@ -1,0 +1,343 @@
+/* NAVBAR */
+.header.background-colored {
+    background: #ffeed8;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.header .nav-item .nav-link{
+    color: #E6511E;
+}
+
+.header .nav-item .nav-link:hover span,
+.header .nav-item .nav-link:focus span,
+.header .nav-item .nav-link:active span  {
+    background-color: #E6511E;
+    border-radius: 40px;
+    color: #fff;
+    padding: 5px 7px;
+}
+
+.navbar-nav .nav-link.active  {
+    background-color: #E6511E;
+    border-radius: 40px;
+    color: #fff !important;
+    padding: 5px 7px;
+}
+
+.navbar-nav .nav-link.show {
+    color: #E6511E !important;
+}
+
+.header .dropdown-menu .dropdown-item:hover,
+.header .dropdown-menu .dropdown-item:focus,
+.header .dropdown-menu .dropdown-item:active{
+    color: #fdfdfd;
+    background-color: #E6511E98;
+}
+
+.navbar-toggler{
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.custom.navbar-toggler-icon {
+    background-image: none;
+    color: #7a2a0f;
+}
+
+section#mainBody {
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width:575.98px) {
+    #mainBody .container{
+        width: 90%;
+    }
+}
+
+/*** HEADER TITLE ***/
+
+@media screen and (max-width:991.98px) {
+    .container-fluid.bg-header {
+        margin-bottom: 30px;
+        height: 50vh;
+        padding: 150px 50px 50px;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .container-fluid.bg-header {
+        margin-bottom: 30px;
+        padding: 150px 50px 50px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767.98px){
+    .container-fluid.bg-header {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991.98px){
+    .container-fluid.bg-header {
+        padding: 100px;
+    }
+}
+
+
+@media screen and (min-width:992px) and (max-width:1279.98px) {
+    .container-fluid.bg-header {
+        height: 85vh;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    .container-fluid.bg-header {
+        height: 100vh;
+    }
+}
+
+.container-fluid.bg-header {
+    border: 1px solid transparent;
+    background: url('../images/n_images/orange.png'), linear-gradient(#ffeed8,#ffeed8);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+@media screen and (min-width:768px) {
+    .container-fluid.bg-header {
+        padding: 250px 50px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .container-fluid.bg-header {
+        padding: 250px;
+        margin-bottom: 100px;
+    }
+}
+
+/* HEADER IMG*/
+@media screen and (max-width:575.98px) {
+    .page-title {
+        font-size: 25px;
+    }    
+}
+
+@media screen and (min-width:576px) and (max-width:1023.98px){
+    .page-title {
+        font-size: 30px;
+    }    
+}
+/* */
+
+@media screen and (min-width:1024px) {
+    .page-title {
+        font-size: 40px;
+    }
+}
+
+.page-title {
+    color:#000;
+    font-weight: bolder;
+}
+
+.sect-description,
+.page-intro {
+    font-size: 14px;
+    color: rgb(27, 27, 27);
+    font-weight: 600;
+}
+
+/* MAIN BODY SECTION */
+
+/* video */
+
+@media screen and (max-width:1023.98px){
+    .my__video{
+        height: 400px ;
+    }
+}
+
+.my__video{
+    min-width: 100%;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    object-fit:cover;
+}
+
+@media screen and (min-width:1024px) {
+    .my__video{
+        height: 500px ;
+    }
+}
+
+@media screen and (max-width:479.98px){
+    .about__us-video-container .title {
+        font-size: 17px;
+        margin-bottom: 20px;
+    }
+        
+    .about__us-video-container.container {
+        margin-bottom: 30px;
+    }
+
+    .about__us-container .description {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:575.98px){
+    .about__us-video-container .title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+   
+    .video-row {
+        margin-bottom: 30px;
+    }
+
+    .about__us-video-container.container {
+        margin-bottom: 50px;
+    }
+}
+
+@media screen and (min-width:576px){
+    .about__us-video-container .title {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .video-row {
+        margin-bottom: 30px;
+    }
+        
+    .about__us-video-container.container {
+        margin-bottom: 100px;
+    }
+}
+
+/* @media screen and (min-width:480px) and (max-width:1023.98px){
+    
+}
+
+@media screen and (min-width:1024px){
+    
+} */
+
+.about__us-video-container .title {
+    color: #96BD0D;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+@media screen and (min-width:480px){
+    .about__us-container .description {
+        font-size: 15px;
+    }
+}
+
+.about__us-container .description {
+    color: rgb(70, 70, 70);
+    font-weight: 500;
+}
+
+/* knowledge */
+
+@media screen and (max-width:479.98px){
+    .knowledge-container {
+        margin-top: 30px;
+    }
+      
+    .knowledge-container .knowledge-card.card .card-body .title{
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width:480px) and (max-width:575.98px){
+    .knowledge-container {
+        margin-top: 50px;
+    }
+      
+    .knowledge-container .knowledge-card.card .card-body .title{
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:576px){
+    .knowledge-container {
+        margin-top: 100px;
+    }
+        
+    .knowledge-container .knowledge-card.card .card-body .title{
+        font-size: 20px;
+    }
+}
+
+.knowledge-container .knowledge-card.card {
+    border: none;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.knowledge-container .knowledge-card.card .card-body .title{
+    font-weight: bold;
+    color: #fff;
+}
+
+.knowledge-container .knowledge-card.card .card-body{
+    color: #f2f2f2;
+    font-size:14px;
+    padding: 50px;
+}
+
+.knowledge-container .knowledge-card.knowledge-card-1.card {
+    background-color: #96BD0D;
+}
+
+.knowledge-container .knowledge-card.knowledge-card-2.card {
+    background-color: #E6511E;
+}
+
+.knowledge-container .img-bg {
+    width: 100%;
+    overflow: hidden;
+}
+
+.knowledge-container .img-bg .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.knowledge-container .img-bg .image.image_{
+    object-position: 50% 25%;
+}
+
+
+@media screen and (max-width:575.98px) {
+
+}
+
+@media screen and (max-width:991.98px){
+    .knowledge-container .img-bg {
+        height: 360px;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1188.98px){
+    .knowledge-container .img-bg {
+        height: 546px;
+    }
+}
+
+@media screen and (min-width:1189px) {
+    .knowledge-container .img-bg {
+        height:462px;
+    }
+}

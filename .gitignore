@@ -1,0 +1,12 @@
+# Ignorer les images volumineuses
+images/Images site/GAMME-DCT-GOUSTO.png
+images/Images site/GAMME-PUR-JUS-1-1024x1024.png
+images/Images site/TRAFRULE_LOGO-removebg-preview.png
+images/n_images/tomato.png
+images/n_images/tomatoes.png
+images/n_images/8552700.png
+images/n_images/traf_img-*.png
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db 

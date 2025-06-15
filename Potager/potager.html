@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trafrule</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="../images/image/favicon.png" type="image/png" sizes="32x32">
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="pot.css">
+    <!-- BOOTSTRAP v5.2.3 CSS-->
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
+    <!-- ICONS CSS -->
+    <link rel="stylesheet" href="../@flaticon/flaticon-uicons/css/all/all.css">
+    <!-- CDN LINK -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+</head>
+<body>
+    <!-- entete: logo et le menu de navigation -->
+    <header class="header fixed-top" id="header-main">
+        <nav class="navbar navbar-expand-lg bg-color mx-auto">
+            <a href=../accueil/index.html class="navbar-brand">
+                <div class="header-logo-bg">
+                    <img src="../images/n_images/logo/trafule_wbg.png" class="header-logo" alt="logo">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar" aria-controls="mainNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="custom navbar-toggler-icon">
+                    <i class="fi fi-br-menu-burger"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="../Histoire/histoire.html" class="nav-link"><span>Notre Histoire</span></a>
+                    </li>
+                    <li class="nav-item dropdown custom">
+                        <a href="#" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Nos marques
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../cebon/cebon.html" class="dropdown-item">Cêbon</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a href="../gousto/gousto.html" class="dropdown-item">Gousto</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="../Engagement/engagement.html" class="nav-link"><span>Nos Engagements</span></a>
+                    </li>
+                    <li class="nav-item me-0">
+                        <a href="../Potager/potager.html" class="active nav-link"><span>Le Potager</span></a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="container-fluid bg-header g-0 mx-0">
+       <div class="d-flex justify-content-center align-items-center text-center">
+            <div class="col-12 col-lg-9 my-auto header-row">
+                <p class="page-title">Les actualités sur le potager</p>
+                <p class="page-intro">Découvrez les nouvelles rubriques sur vos produits préférés</p>
+                <a href="" class="btn header-shop-btn mt-3">
+                    <i class="fi fi-rr-shop me-0 me-md-2"></i>
+                    <span>Aller à la boutique</span>
+                </a>
+            </div>
+            <!-- <div class="col-12 col-lg-5">
+                <div class="page-pot-header-img-bg">
+                    <img src="../images/n_images/juice_fruits.png" alt="image header" class="page-pot-header-img">
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <section id="mainBody">
+        <div class="container news-container">
+            <div class="row">
+                <div class="col-12 page-name-row">
+                    <p class="page-name">Le potager</p>
+                </div>
+                <div class="d-flex justify-content-center justify-content-lg-start align-items-center flex-wrap">
+                    <div class="card news-card me-0 me-lg-2 mb-4 mb-lg-3">
+                        <div class="card-img-bg">
+                            <img src="../images/image/harv.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title-row">
+                                <div class="d-flex justify-content-around align-content-center">
+                                    <div class="card-title">
+                                        Lorem ipsum dolor sit amet consectetur
+                                    </div>
+                                    <div class="card-title-date">Nov 6, 2024</div>
+                                </div>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum unde beatae, fuga itaque id vitae autem deleniti.</p>
+                            <div class="pt-2">
+                                <a href="#" class="btn-read-more">
+                                    <span class="link-text">Lire plus<icon/span>
+                                    <i class="fi fi-rs-arrow-right icon ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card news-card me-0 me-lg-2 mb-4 mb-lg-3">
+                        <div class="card-img-bg">
+                            <img src="../images/image/harv.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title-row">
+                                <div class="d-flex justify-content-around align-content-center">
+                                    <div class="card-title">
+                                        Lorem ipsum dolor sit amet consectetur
+                                    </div>
+                                    <div class="card-title-date">Nov 6, 2024</div>
+                                </div>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum unde beatae, fuga itaque id vitae autem deleniti.</p>
+                            <div class="pt-2">
+                                <a href="#" class="btn-read-more">
+                                    <span class="link-text">Lire plus<icon/span>
+                                    <i class="fi fi-rs-arrow-right icon ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card news-card me-0 me-lg-2 mb-4 mb-lg-3">
+                        <div class="card-img-bg">
+                            <img src="../images/image/harv.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-title-row">
+                                <div class="d-flex justify-content-around align-content-center">
+                                    <div class="card-title">
+                                        Lorem ipsum dolor sit amet consectetur
+                                    </div>
+                                    <div class="card-title-date">Nov 6, 2024</div>
+                                </div>
+                            </div>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum unde beatae, fuga itaque id vitae autem deleniti.</p>
+                            <div class="pt-2">
+                                <a href="#" class="btn-read-more">
+                                    <span class="link-text">Lire plus<icon/span>
+                                    <i class="fi fi-rs-arrow-right icon ms-1"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container contact-container">
+            <div class="row">
+                
+                <div class="col-12 col-lg-6">
+                    <div class="contact-form-intro">
+                        <p class="contact-form-title">
+                            Restons en contact !
+                        </p>
+                        <p class="contact-form-subtitle">
+                            Pour tout.e renseignement ou plainte, envoyez-nous un message. Nous vous répondrons dans les plus brefs délais.
+                        </p>
+                    </div>
+                    <form action="" class="contact-form">
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <input type="text" class="form-control" placeholder="Nom et Prénom(s)"/>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <input type="email" class="form-control" placeholder="Email"/>
+                            </div>
+                        </div>
+                        <div class="row mb-4">
+                            <div class="col-12">
+                                <textarea class="form-control" placeholder="Message" rows="5"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row mb-5 mb-lg-1">
+                            <div class="col-12 text-center">
+                                <button type="submit" class="btn btn-submit">Envoyez</button>
+                            </div>
+                        </div>                                
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card location-card">
+                        <div class="card-body p-0">
+                           <div class="location-adress-row mb-4">
+                                <p class="location-title mb-2 fw-bold">Localisez-nous</p>
+                                <p class="location mb-1">
+                                    Nous sommes situés à Cocody en face de la polyclinique de deux plateaux.
+                                </p>
+                                <a href="#" class="location-link">
+                                    <span>Retrouvez-nous sur la carte</span>
+                                    <i class="fi fi-br-up-right-from-square"></i>
+                                </a>
+                            </div>
+                            <div class="location-title-row mb-4">
+                                <p class="location-title mb-0">Adresse Postale</p>
+                                <p class="location-desc">08 PB 1793 Abidjan</p>
+                            </div>
+                            <div class="row">
+                                <div class="col-12 col-lg-6">
+                                    <div class="location-title-row">
+                                        <p class="location-title mb-2">Contacts</p>
+                                        <div class="location-desc">
+                                            <div class="location-contact-1 mb-2">
+                                                <p class="location-contact-name fw-semibold mb-0">Administration </p>
+                                                <i class="fi fi-sr-phone-rotary icon"></i>
+                                                <span class="tel">(+225) 27 22 44 18 54</span>
+                                            </div>
+                                            <div class="location-contact-2 mb-3">
+                                                <p class="location-contact-name fw-semibold mb-0"> Service client</p>
+                                                <i class="fi fi-sr-phone-rotary icon"></i>
+                                                <span class="tel">(+225) 27 22 24 75 29 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-6">
+                                    <div class="location-title-row">
+                                        <p class="location-title mb-2">Réseaux sociaux</p>
+                                        <div class="location-desc">
+                                            <div class="location-social-1">
+                                                <div class="d-flex justify-content-between">
+                                                   <div>
+                                                        <p class="fw-semibold mb-1">Cêbon</p>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <a href="https://www.instagram.com/cebonci/" class="social-link">
+                                                                    <i class="fi fi-brands-instagram icon me-1"></i>
+                                                                    <span>Cebonci</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://www.facebook.com/profile.php?id=100077634068755" class="social-link">
+                                                                    <i class="fi fi-brands-facebook icon me-1"></i>
+                                                                    <span>Cebon</span>
+                                                                </a>
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                   </div>
+
+                                                   <div>
+                                                        <p class="fw-semibold mb-1">Gousto</p>
+                                                        <ul class="list-unstyled">
+                                                            <li>
+                                                                <a href="https://www.instagram.com/gousto_civ/" class="social-link">
+                                                                    <i class="fi fi-brands-instagram icon me-1"></i>
+                                                                    <span>Gousto_civ</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                
+                                                                <a href="https://www.facebook.com/profile.php?id=100077437884424" class="social-link">
+                                                                    <i class="fi fi-brands-facebook icon me-1"></i>
+                                                                    <span>Gousto</span>
+                                                                </a>
+                                                            </li>
+                                                           
+                                                        </ul>
+                                                   </div>
+                                                </div>                                        
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container widget-container">
+            <div class="row">
+                <div class="col-12 page-name-row">
+                    <p class="page-name">Découvrez-nous</p>
+                </div>
+                <div class="col-12">
+                    <!-- Slider main container -->
+                    <div class="swiper">
+                        <!-- Additional required wrapper -->
+                        <div class="swiper-wrapper">
+                        <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="card widget-card">
+                                    <div class="card-body">
+                                        <p class="card-text">
+                                            Lorem ipsum dolor sit amet consectetur 
+                                            adipisicing elit. Laborum cum unde beatae, 
+                                            fuga itaque id vitae autem deleniti eaque.
+                                        </p>
+                                    </div>
+                                    <div class="card-img-bg">
+                                        <img src="../images/image/i11.jpg" class="card-img-top" alt="...">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card widget-card">
+                                    <div class="card-body">
+                                        <div class="img-bg mb-0">
+                                            <img src="../images/n_images/logo/cebon.png" alt="">
+                                        </div>
+                                        <p class="card-text">
+                                            Les jus de fruits <span>Cêbon</span> sont faits à base de fruits 100% naturels pour vous apporter :
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="quality-list">
+                                                    <i class="fi fi-sr-bolt"></i>
+                                                    <span>Énergie</span>
+                                                </div>
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-heart-health-muscle"></i>
+                                                    <span>Vitamines</span>
+                                                </div>
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-hand-holding-medical"></i>
+                                                    <span>Antioxydants</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-glass-cheers"></i>
+                                                    <span>Hydratation</span>
+                                                </div>
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-blood"></i>
+                                                    <span>Immunité</span>
+                                                </div>
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-stomach"></i>
+                                                    <span>Digestion</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="" class="btn widget-partner-btn mt-3">
+                                                    <i class="fi fi-rr-handshake"></i>
+                                                    <span>Devenir partenaire</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card widget-card gousto">
+                                    <div class="card-body">
+                                        <div class="img-bg mb-0">
+                                            <img src="../images/n_images/logo/gousto.png" alt="">
+                                        </div>
+                                        <p class="card-text">
+                                            Le double concentré de tomates <span>Gousto</span> est l'idéal pour 
+                                            rehausser le goût de vos repas et apporte une 
+                                            intensité de saveur incomparable. 
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-6">
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rs-seedling"></i>
+                                                    <span>Naturel</span>
+                                                </div>
+                                                <div class="quality-list">
+                                                    <i class="fi fi-ss-room-service"></i>
+                                                    <span>Délicieux</span>
+                                                </div>
+                                            </div>
+                                            <div class="col-6">
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-glass-cheers"></i>
+                                                    <span>Santé</span>
+                                                </div>
+                                               
+                                                <div class="quality-list">
+                                                    <i class="fi fi-rr-stomach"></i>
+                                                    <span>Digestion</span>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="row">
+                                            <div class="col-12 text-center">
+                                                <a href="" class="btn widget-partner-btn mt-3">
+                                                    <i class="fi fi-rr-handshake"></i>
+                                                    <span>Devenir partenaire</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card widget-card social">
+                                    <div class="card-body">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="social-media-title mb-2">Nos réseaux sociaux</p>
+                                                <p class="social-media-subtitle mb-2">Rejoignez-nous sur nos différents réseaux sociaux</p>
+                                                <div class="row mb-3">
+                                                    <div class="col-2">
+                                                        <div class="icon-bg">
+                                                            <i class="fi fi-brands-instagram icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9 ms-3">
+                                                        <div class="d-flex flex-column align-content-center">
+                                                            <p class="fw-semibold mb-0">Instagram</p>
+                                                            <a href="" class="social-link">
+                                                                <span>Cebonci</span>
+                                                            </a>
+                                                            <a href="" class="social-link">
+                                                                <span>Gousto_civ</span>
+                                                            </a>
+                                                            <a href="" class="social-link">
+                                                                <span>Trafrule S.A.</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-2">
+                                                        <div class="icon-bg">
+                                                            <i class="fi fi-brands-facebook icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9 ms-3">
+                                                        <p class="fw-semibold mb-0">Facebook</p>
+                                                        <div class="d-flex flex-column align-content-center">
+                                                            <a href="" class="social-link">
+                                                                <span>Cebon</span>
+                                                            </a>
+                                                            <a href="" class="social-link">
+                                                                <span>Gousto</span>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-3">
+                                                    <div class="col-2">
+                                                        <div class="icon-bg">
+                                                            <i class="fi fi-brands-linkedin icon"></i>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-9 ms-3">
+                                                        <p class="fw-semibold mb-0">LinkedIn</p>
+                                                        <a href="" class="social-link">
+                                                            <span>Trafrule SA</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- If we need pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- If we need navigation buttons -->
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- le pied de la page  -->
+    <footer class="footer container-fluid">
+        <div class="row">
+            <div class="col-12 col-lg-3">
+                <div class="footer-logo-bg ">
+                    <img src="../images/n_images/logo/trafule_wbg.png" class="footer-logo float-start" alt="logo">
+                </div>
+                <p class="footer-logo-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto facere aperiam ipsa assumenda, dignissimos fugit, provident
+                </p>
+            </div>
+            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                <p class="footer-section-title text-capitalize">Contactez-nous</p>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-0">Adresse</p>
+                    <span>
+                        08 PB 1793 im. Face à la polyclinique de deux plateaux, Abidjan.
+                    </span>
+                </div>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-0">Email</p>
+                    <span>infos@trafrule.com </span>
+                </div>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-2">Réseaux sociaux</p>
+                    <div class="d-flex align-items-center">
+                        <div class="icon-bg me-3">
+                            <a href="https://www.facebook.com/profile.php?id=100077437884424" class="text-decoration-none">
+                                <i class="fi fi-brands-facebook icon"></i>
+                            </a>
+                            
+                        </div>
+                        <div class="icon-bg">
+                            <a href="https://ci.linkedin.com/company/trafrule-sa" class="text-decoration-none">
+                                <i class="fi fi-brands-linkedin icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                <p class="footer-section-title text-capitalize">Horaires d'ouverture</p>
+                <ul class="list-unstyled footer-opening-hour">
+                    <li>Lun - Ven : 8h00 - 18h00</li>
+                    <li class="my-2">Sam : 8h00 - 12h00</li>
+                    <li>Dim : Fermé</li>
+                </ul>
+            </div>
+            <div class="col-12 col-lg-3 mb-3 mb-lg-0">
+                <p class="footer-section-title text-capitalize">Service client</p>
+                <div class="footer-contact mb-2">
+                    <p class="fw-semibold mb-0">Administration </p>
+                    <span>(+225) 27 22 44 18 54</span>
+                </div>
+                <div class="footer-contact">
+                    <p class="fw-semibold mb-0"> Service client</p>
+                    <span>(+225) 27 22 24 75 29 </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- SWIPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- jQuery JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BOOTSTRAP v5.2.3 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+     <!-- MAIN CUSTOM JS -->
+     <script src="../main.js"></script>
+    <!-- PAGE CUSTOM JS -->
+    <script src="../Potager/pot.js"></script>
+    <script src="../index.js"></script>
+</body>
+</html>
